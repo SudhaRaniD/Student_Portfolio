@@ -1,43 +1,42 @@
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
 
 body {
-     
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  width: 100%;
-}
+    height: 100%;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%; 
+    }
 
-
-  figure {
-    margin: 0px;
-  }
- 
-.hero{
+    .hero{
   position:relative;
 }
 
 img.inspiration{
-  width: 100%;
-  height: 500px;
+  width: 100%; 
+  height: 70vh;
 }  
 
 div.title {
   position: absolute;
-  top: 150px;
-  left: 60px;
+  top:30vh;
+  left: 25vw; 
   padding: 20px;
 
 }
 
 article{
  
-  padding: 10px 210px;
-    font-size: 25px;
+  padding: 1.5vh 15vw;
+    font-size: 2.5vw;
+    background-color: white;
 }
 
 h2{
-    font-size: 35px;
+     font-size: 2.5vw;
   }
 
 #contact{
@@ -46,120 +45,59 @@ h2{
     color: white;
     text-align: center;
     align-content: center;
-    font-size: 25px;
-  margin-left: 30%;
-  padding: 5px 15px; 
-  width: 200px;
-  height:2em;
-  font-family: 'Times New Roman', Times, serif;
+    font-size: 1.9vw;
+    margin-left: 30%;
+    padding: 1px 5px; 
+    width: 14vw;
+    height:2em;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
 h1{
-  font-size: 45px;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 6px;
-}
+   font-size: 3.5vw;
+ }
 
 #developer {
-  text-indent: 20px;
-  font-size: 25px;
+   font-size: 1.9vw;
   font-weight: 600;
   text-align: center;
 }
 
 div.social{
   position: absolute;
-  top: 25px;
-  right: 25px;
-  padding: 21px;
+  top: 7vw;
+  right: 7vw;
+  width: 15vw;
+  height: 10vh;
 }
-
-.gith{
-  width: 30px;
-  height: 30px;
-}
-
-.linkden{
-  width: 30px;
-  height: 30px;
-}
-
-
-
 
 div.Portfolio{
-
-  min-height: 3200px;
-  width: 100%; 
-   height: fit-content;
+  width: 100%;
   background-color: black;
   position:relative;
-  /* padding: 30px; */
 }
 
-h3{
-  color: white;
-  font-size: 35px;
-}
+
 
 .disport{
 position: absolute;
-top: 20px;
-left:30px;
- 
-}
-
-/* .row{
-  /* content: "";
-  clear: both;
-  display: flex; */
-  /* display: flex;
-  width:100%;
-
-  position: absolute;
-  top: 130px;
-      flex-direction: row;
-  flex-wrap: wrap;  */
-   /* justify-content: space-between;   */
-   /* justify-content: ; */
-   /* align-items: center; */
-  /* align-content: normal;   */
-
-  /* } */ 
-
-/* .column{
-    width:27%;  
-    min-height: 200px;
-    padding: 10px 16px 10px 16px; 
-    margin: 0px 2px 0px 2px; 
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    height: fit-content;
-  } */
-
- /* div.container {
-  position: absolute;
-bottom: 1200px;
-  width: 320px;
-  /* border-radius: 3px; */
-  /* padding: 10px; */
- 
+top: 1vh;
+left: 4vw;
+ }
 
  label{
   color: white;
+  font-size: 3vw;
  }
 
 
  input {
   width: 100%;
-  padding: 10px 16px 10px 16px;
-  margin: 8px 0px 8px 0px;
+  height: 5vh;
+  padding: 0.5vh 1vw 0.5vh 1vw;
   border: none;
-  /* border-radius: 5px; */
+  font-size: 3em;
  }
 
 input:hover {
@@ -168,110 +106,156 @@ input:hover {
 
 #message {
   width: 100%;
-  padding: 10px 16px 10px 16px; 
+  padding: 0.5vh 1vw 0.5vh 1vw;
   margin: 8px 0px 8px 0px; 
   border: none;
-  /* border-radius: 5px; */
+  height: 10vh;
 }
 
 #submitfor {
   background-color: #074227;
   cursor: pointer;
   color: white;
-  padding: 10px 20px 10px 20px;
+  padding: 1px 2px 1px 2px;
+  font-size: 2vw;
+}
+
+.column p{
+  font-size: 0.4em;
+}
+
+li{
+  font-size: 1.5vw;
+  text-align: left;
 }
 
 
 
-/* div.socialp{
-  width: 260px;
-  position: absolute;
-  top: 710px;
-  right: 25px;
-  padding: 5px;
-} */
-
-.linkdenp{
-  width: 40px;
-  height: 40px;
-  float: left;
-  padding-right: 15px;
-}
-
-.githp{
-  width: 40px;
-  height: 40px;
-  float: left;
-  padding-right: 15px;
-}
-
-@media screen 
-and (min-width: 270px)
-and (max-width:500px)
+@media screen and (max-width: 500px)
 
 {
 .row{
   display: flex; 
   width:100%;
-  /* padding-right: 25px; */
   position: absolute;
-  top: 130px;
-  flex-direction: row;
-  flex-wrap: wrap; 
+  top: 7vh;
+  flex-direction: column;
+   flex-wrap: wrap; 
   align-items: center;
   justify-content: center;
   }
 
 
 .column{
-   min-width: 92%; 
-   
+  min-width: 92%; 
   min-height: 200px;
   padding: 10px 16px 10px 16px; 
   margin: 0px 2px 0px 2px; 
   color: white;
-  text-align: center;
   font-size: 18px;
   height: fit-content;
 }
 
-div.container {
+.touch{
+
+  width: 100%;
+  height: 5vh;
   position: absolute;
- bottom:1100px;
-  width: 320px;
-  left: 55px;
+  top: 155vh;
+  left: 5.2vw;
+  
+}
+
+div.container {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   top: 160vh;
+   left: 4vw;
+   width: 50vw;
  }
 
- div.socialp{
-  width: 260px;
-  position: absolute;
-  bottom:1450px;
-  right: 75px;
+div.socialp{
+   position: absolute;
+   top: 162vh;
+  right: 5vw;
   padding: 5px;
+} 
+
+label{
+  color: white;
+  font-size: 4vw;
+ }
+
+
+input {
+  width: 100%;
+  height: 4vh;
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  border: none;
+  font-size: 1em;
+  }
+
+#message {
+  width: 100%;
+   padding: 0.5vh 1vw 0.5vh 1vw;
+  margin: 8px 0px 8px 0px; 
+   border: none;
+  height: 10vh;
 }
+
+#submitfor {
+  background-color: #074227;
+  cursor: pointer;
+  color: white;
+  padding: 1px 2px 1px 2px;
+  font-size: 3vw;
+}
+
+.column p{
+  font-size: 1em;
+}
+li{
+  font-size: 0.8rem;
+}
+
+.disport h3{
+   font-size: 4vw;
+   color: white;
+}
+
+.touch h4{
+   font-size: 4vw;
+}
+
+.footerblack {
+ position: absolute;
+ left: 0;
+ top: 207vh;
+ width: 100%;
+ height: 10px;
+ background-color: black;
+} 
 
 } 
 
 @media screen 
-and (min-width: 500px)
-and (max-width:780px)
+and (min-width: 501px)
+and (max-width:990px)
 {
 .row{
-    display: flex; 
-  
-  width:100%;
-
+   display: flex; 
+   width:100%;
   position: absolute;
-  top: 130px;
+   top: 7vh;
   flex-direction: row;
   flex-wrap: wrap; 
-  /* align-items: center; */
   justify-content: center;
   }
 
 
 .column{
-   min-width: 40%; 
+   min-width: 44%; 
    min-height: 200px;
   padding: 10px 16px 10px 16px; 
   margin: 0px 2px 0px 2px; 
@@ -281,32 +265,96 @@ and (max-width:780px)
   height: fit-content;
 }
 
-div.container {
+.touch{
   position: absolute;
-  top: 770px;
+  top: 67vh;
+  left: 5.5vw;
+  
+}
+
+
+  div.container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 73vh;
   left: 55px;
-  width: 320px;
+  width: 50vw;
  }
 
  div.socialp{
-  width: 260px;
-  position: absolute;
-  top: 870px;
-  right: 105px;
-  padding: 5px;
+   width: 40vw;
+   position: absolute;
+   top: 75vh;
+  left: 65vw;
+  } 
+
+  label{
+    color: white;
+    font-size: 2.5vw;
+   }
+  
+  
+   input {
+    width: 100%;
+    height: 4vh;
+    padding: 0.5vh 1vw 0.5vh 1vw;
+    border: none;
+    font-size: 2.5vw;
+   }
+  
+  input:hover {
+    background-color: yellow;
+  }
+  
+  #message {
+    width: 100%;
+    padding: 0.5vh 1vw 0.5vh 1vw;
+    margin: 8px 0px 8px 0px; 
+    border: none;
+    height: 10vh;
+    font-size: 2.5vw;
+  }
+  
+  #submitfor {
+    background-color: #074227;
+    cursor: pointer;
+    color: white;
+    padding: 1px 2px 1px 2px;
+    font-size: 2.5vw;
+  }
+
+  .footerblack {
+   position: absolute;
+   left: 0;
+   top: 117vh;
+   width: 100%;
+   height: 1px;
+   background-color: black;
+  } 
+
+  .disport h3{
+      color: white;
+        font-size: 2.5vw;
+  }
+  
+  .touch h4{
+     font-size: 2.5vw;
+  }
+
 
 }
-}
-@media screen 
-and (min-width: 780px)
-and (max-width:2500px)
 
+
+
+
+@media screen and (min-width: 990px)
 {
 .row{
 display: flex; 
 width:100%;
 position: absolute;
-top: 130px;
+top: 10vh;
 flex-direction: row;
 flex-wrap: wrap; 
 align-items: center;
@@ -315,36 +363,114 @@ justify-content: center;
 
 
 .column{
-width: 25%; 
-min-height: 200px;
+width: 30%; 
+min-height: 30vh;
 padding: 10px 16px 10px 16px; 
 margin: 0px 2px 0px 2px; 
 color: white;
 text-align: center;
-font-size: 18px;
+font-size: 3em;
 height: fit-content;
 }
 
-div.container {
-position: absolute;
-top:570px;
-left: 55px;
-width: 320px;
+.touch{
+  position: absolute;
+  top: 73vh;
+  left: 4.5vw;
+  
 }
+
+div.container {
+display: flex;
+width: 100%;
+position: absolute;
+top: 82vh;
+flex-direction: row;
+flex-wrap: wrap; 
+justify-content: center;
+}
+
+.myform{
+  width: 46%; 
+  padding: 10px 16px 10px 16px; 
+  margin: 0px 2px 0px 2px;  
+  color: white;
+  
+  }
+
+label{
+  color: white;
+  font-size: 1.5vw;
+ }
+
+
+ input {
+  width: 100%;
+  height: 5vh;
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  border: none;
+  font-size: 1.5vw;
+ }
+
+input:hover {
+  background-color: yellow;
+}
+
+#message {
+  width: 100%;
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  margin: 8px 0px 8px 0px; 
+  border: none;
+  height: 20vh;
+  font-size: 1.5vw;
+}
+
+#submitfor {
+  background-color: #074227;
+  cursor: pointer;
+  color: white;
+  padding: 1px 2px 1px 1px;
+  font-size: 2vw;
+}
+
+.footerblack {
+ position: absolute;
+ left: 0;
+ top: 135vh;
+ width: 100%;
+ height: 55px;
+ background-color: black;
+
+} 
 
 div.socialp{
-width: 280px;
-position: absolute;
-top:660px;
-right: 25px;
-padding: 5px;
-
-}
-
-}
-
-
-
-=======
+  position: absolute;
+  top: 105vh;
+  left: 4vw;
+  padding: 15px;
   }
->>>>>>> daef6ba48b2fb34427a2b2336a0ad8277ea24203
+
+ #message {
+  width: 100%;
+  padding: 0.5vh 1vw 0.5vh 1vw;
+  margin: 8px 0px 8px 0px; 
+  border: none;
+  height: 20vh;
+  font-size: 1.5vw;
+}
+.disport h3{
+  color: white;
+  font-size: 2.5vw;
+}
+
+.touch h4{
+   font-size: 2.5vw;
+}
+#submitfor {
+  background-color: #074227;
+  cursor: pointer;
+  color: white;
+  padding: 1px 2px 1px 2px;
+  font-size: 2vw;
+} 
+}
