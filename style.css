@@ -180,6 +180,7 @@ div.socialp{
    top: 162vh;
   right: 5vw;
   padding: 5px;
+  z-index: 1000;
 } 
 
 label{
@@ -287,6 +288,7 @@ and (max-width:990px)
    position: absolute;
    top: 75vh;
   left: 65vw;
+  z-index: 1000;
   } 
 
   label{
@@ -448,6 +450,7 @@ div.socialp{
   top: 105vh;
   left: 4vw;
   padding: 15px;
+  z-index: 1000;
   }
 
  #message {
